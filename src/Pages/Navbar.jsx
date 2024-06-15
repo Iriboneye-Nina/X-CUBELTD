@@ -22,7 +22,7 @@ const Navbar = () => {
           <li><Link to="services" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">Services</Link></li>
           <li><Link to="projects" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">Projects</Link></li>
           <li><Link to="contact" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">Contact</Link></li>
-          <li><Link to="joinus" smooth={true} duration={500} className="bg-red-500 px-4 py-2 rounded hover:bg-red-700 cursor-pointer">Join Us</Link></li>
+          <li><Link to="contact" smooth={true} duration={500} className="bg-red-500 px-4 py-2 rounded hover:bg-red-700 cursor-pointer">Join Us</Link></li>
         </ul>
         <div className="hidden md:flex space-x-4">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white hover:text-red-500"><FaFacebook size={24} /></a>

@@ -13,8 +13,8 @@ function ContactSection() {
             We would love to hear from you!
           </p>
         </div>
-        <div className="mt-10">
-          <form action="#" method="POST" className="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+        <div className="mt-10 flex justify-center">
+          <form action="https://formspree.io/f/{form_id}" method="POST" className="w-full max-w-lg grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
             <div className="sm:col-span-2">
               <label htmlFor="name" className="block text-sm font-medium text-gray-700">
                 Name
@@ -83,3 +83,4 @@ function ContactSection() {
 }
 
 export default ContactSection;
+
