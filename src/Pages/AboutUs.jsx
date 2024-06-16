@@ -24,7 +24,7 @@ const teamMembers = [
 
 const AboutUs = () => {
   return (
-    <div className="about-us-container flex flex-col items-center pt-64 bg-gray-100">
+    <div className="about-us-container flex flex-col items-center pt-80 sm:pt-80 lg:pt-48 bg-gray-100">
       <div className="about-content text-center mb-8">
         <p className="text-2xl font-bold font-serif text-red-500 mb-2">ABOUT US</p>
         <h1 className="text-5xl font-bold font-serif mb-6">Who We Are</h1>

@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
         <ul className="hidden md:flex space-x-6">
           <li><Link to="home" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">Home</Link></li>
-          <li><Link to="about" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">About</Link></li>
+          <li><Link to="AboutUs" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">AboutUs</Link></li>
           <li><Link to="services" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">Services</Link></li>
           <li><Link to="projects" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">Projects</Link></li>
           <li><Link to="contact" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">Contact</Link></li>
