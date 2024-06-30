@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaEnvelope, FaMapMarkerAlt, FaPhone, FaFacebook, FaInstagram, FaYoutube, FaLinkedin } from 'react-icons/fa';
 
 function ContactSection() {
   return (
@@ -13,69 +14,33 @@ function ContactSection() {
             We would love to hear from you!
           </p>
         </div>
-        <div className="mt-10 flex justify-center">
-          <form action="https://formspree.io/f/{form_id}" method="POST" className="w-full max-w-lg grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
-            <div className="sm:col-span-2">
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700">
-                Name
-              </label>
-              <div className="mt-1">
-                <input
-                  type="text"
-                  name="name"
-                  id="name"
-                  className="py-3 px-4 block w-full shadow-sm focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md"
-                />
-              </div>
-            </div>
-            <div className="sm:col-span-2">
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700">
-                Email
-              </label>
-              <div className="mt-1">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  className="py-3 px-4 block w-full shadow-sm focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md"
-                />
-              </div>
-            </div>
-            <div className="sm:col-span-2">
-              <label htmlFor="subject" className="block text-sm font-medium text-gray-700">
-                Subject
-              </label>
-              <div className="mt-1">
-                <input
-                  type="text"
-                  name="subject"
-                  id="subject"
-                  className="py-3 px-4 block w-full shadow-sm focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md"
-                />
-              </div>
-            </div>
-            <div className="sm:col-span-2">
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700">
-                Message
-              </label>
-              <div className="mt-1">
-                <textarea
-                  id="message"
-                  name="message"
-                  rows="4"
-                  className="py-3 px-4 block w-full shadow-sm focus:ring-red-500 focus:border-red-500 border-gray-300 rounded-md"
-                ></textarea>
-              </div>
-            </div>
-            <div className="sm:col-span-2">
-              <button
-                type="submit"
-                className="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-red-500 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500"
-              >
-                Submit
-              </button>
-            </div>
-          </form>
+        <div className="mt-10 flex flex-col items-center space-y-6">
+          <div className="flex items-center space-x-3">
+            <FaMapMarkerAlt className="text-red-500" />
+            <p className="text-lg text-gray-700">Kigali, RWANDA</p>
+          </div>
+          <div className="flex items-center space-x-3">
+            <FaPhone className="text-red-500" />
+            <p className="text-lg text-gray-700">+250788359636</p>
+          </div>
+          <div className="flex items-center space-x-3">
+            <FaEnvelope className="text-red-500" />
+            <p className="text-lg text-gray-700">xcuberwanda@gmail.com</p>
+          </div>
+        </div>
+        <div className="mt-10 flex justify-center space-x-6">
+          <a href="https://web.facebook.com/XCUBEAdvertising/?_rdc=1&_rdr" className="text-gray-500 hover:text-gray-900">
+            <FaFacebook size={30} style={{ color: '#4267B2' }} />
+          </a>
+          <a href="https://www.instagram.com/x_cuberwanda/?hl=en" className="text-gray-500 hover:text-gray-900">
+            <FaInstagram size={30} style={{ color: '#C13584' }} />
+          </a>
+          <a href="https://www.youtube.com/channel/UC53mkUIjqaxruafpZk5n93Q" className="text-gray-500 hover:text-gray-900">
+            <FaYoutube size={30} style={{ color: '#FF0000' }} />
+          </a>
+          <a href="https://rw.linkedin.com/in/x-cube-rwanda-aa015720a" className="text-gray-500 hover:text-gray-900">
+            <FaLinkedin size={30} style={{ color: '#0077B5' }} />
+          </a>
         </div>
       </div>
     </section>
@@ -83,4 +48,3 @@ function ContactSection() {
 }
 
 export default ContactSection;
-

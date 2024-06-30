@@ -4,7 +4,7 @@ import { FaUsers, FaRegHeart, FaBullseye } from 'react-icons/fa'; // Importing i
 const teamMembers = [
   {
     id: 1,
-    name: 'John Doe',
+    name: 'Habimana Jean Leonard',
     position: 'CEO',
     image: '/team1.png',
   },
@@ -24,8 +24,8 @@ const teamMembers = [
 
 const AboutUs = () => {
   return (
-    <div className="about-us-container flex flex-col items-center pt-80 sm:pt-80 lg:pt-48 bg-gray-100">
-      <div className="about-content text-center mb-8">
+    <div className="about-us-container flex flex-col items-center lg:mb-4 pt-20 sm:pt-20 lg:pt-12 bg-gray-100">
+      <div className="about-content text-center mt-0 pt-0 md:mt-0 md:pt-0 lg:mb-2">
         <p className="text-2xl font-bold font-serif text-red-500 mb-2">ABOUT US</p>
         <h1 className="text-5xl font-bold font-serif mb-6">Who We Are</h1>
         <p className="text-lg mb-6 max-w-2xl mx-auto">
