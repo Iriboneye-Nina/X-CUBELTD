@@ -7,28 +7,28 @@ const services = [
     title: 'BILLBOARD',
     description: 'Billboard advertising has grown as technology...',
     images: ['/img1.png', '/img1-alternate.png', '/img1-additional1.png', '/img1-additional2.png'],
-    icon: <FaBullhorn size={24} className="text-red-500 mb-2" />, // Adding icon
+    icon: <FaBullhorn size={24} className="text-red-500 mb-2" />, 
   },
   {
     id: 2,
     title: 'MOBILE BILLBOARD',
     description: 'Advertising on roads is a unique strategy that helps...',
     images: ['/img2.png', '/img2-alternate.png', '/img2-additional1.png', '/img2-additional2.png'],
-    icon: <FaTruck size={24} className="text-red-500 mb-2" />, // Adding icon
+    icon: <FaTruck size={24} className="text-red-500 mb-2" />, 
   },
   {
     id: 3,
     title: 'DIGITAL DISPLAYS',
     description: 'Treacherously far so late have immense condescending...',
     images: ['/img3.png', '/img3-alternate.png', '/img3-additional1.png', '/img3-additional2.png'],
-    icon: <FaTv size={24} className="text-red-500 mb-2" />, // Adding icon
+    icon: <FaTv size={24} className="text-red-500 mb-2" />,
   },
   {
     id: 4,
     title: 'ETHICATE ADVERTISING',
     description: 'Ethicate advertising promotes ethical practices in business and beyond...',
-    images: ['/ethicate1.jpg', '/ethicate1-alternate.png', '/ethicate1-additional1.png', '/ethicate1-additional2.png'],
-    icon: <FaLeaf size={24} className="text-green-500 mb-2" />, // Unique icon
+    images: ['/coca.jpg', '/ethicate1-alternate.png', '/ethicate1-additional1.png', '/ethicate1-additional2.png'],
+    icon: <FaLeaf size={24} className="text-green-500 mb-2" />, 
   },
   {
     id: 5,
@@ -76,7 +76,7 @@ const Services = () => {
               className="h-64 md:h-96 w-full object-cover rounded-lg shadow-md transition-transform duration-300 hover:scale-105"
             />
             <div className="content absolute bottom-0 right-0 bg-white bg-opacity-90 p-4 rounded-b-lg w-full">
-              {service.icon} {/* Displaying icon */}
+              {service.icon} 
               <h2 className="text-xl md:text-2xl font-bold mb-2">{service.title}</h2>
               <p className="text-md md:text-lg">{service.description}</p>
             </div>
