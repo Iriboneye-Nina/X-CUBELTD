@@ -1,26 +1,5 @@
 import React from 'react';
-import { FaUsers, FaRegHeart, FaBullseye } from 'react-icons/fa'; // Importing icons
-
-const teamMembers = [
-  {
-    id: 1,
-    name: 'Habimana Jean Leonard',
-    position: 'CEO',
-    image: '/team1.png',
-  },
-  {
-    id: 2,
-    name: 'Jane Smith',
-    position: 'Marketing Director',
-    image: '/team2.png',
-  },
-  {
-    id: 3,
-    name: 'Sam Johnson',
-    position: 'Lead Designer',
-    image: '/team3.png',
-  },
-];
+import { FaRegHeart, FaBullseye } from 'react-icons/fa';
 
 const AboutUs = () => {
   return (
@@ -44,21 +23,8 @@ const AboutUs = () => {
           <p>To be the most trusted and creative advertising partner, known for our passion and dedication to our clients' success.</p>
         </div>
         <div className="values bg-white p-6 rounded-lg shadow-md max-w-xs text-center">
-          <FaUsers size={48} className="text-red-500 mb-4" />
           <h2 className="text-2xl font-bold mb-2">Our Values</h2>
           <p>Integrity, Innovation, Client-Centricity, Collaboration, and Excellence.</p>
-        </div>
-      </div>
-      <div className="team-content text-center mb-8">
-        <h1 className="text-5xl font-bold font-serif mb-6">Meet Our Team</h1>
-        <div className="team-members flex flex-wrap justify-center gap-4">
-          {teamMembers.map((member) => (
-            <div key={member.id} className="team-member bg-white p-4 rounded-lg shadow-md text-center">
-              <img src={member.image} alt={member.name} className="h-48 w-48 object-cover rounded-full mb-4 mx-auto" />
-              <h2 className="text-2xl font-bold mb-2">{member.name}</h2>
-              <p className="text-lg text-red-500">{member.position}</p>
-            </div>
-          ))}
         </div>
       </div>
     </div>

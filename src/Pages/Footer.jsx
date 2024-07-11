@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300 py-8">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-4 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
           {/* Logo Section */}
           <div className="mb-8 md:mb-0">
@@ -13,8 +13,8 @@ function Footer() {
           </div>
 
           {/* Links Section */}
-          <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
-            <ul className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
+          <div className="flex flex-col md:flex-row md:text-1xl space-y-4 md:space-y-0 md:space-x-8">
+            <ul className="flex flex-col md:flex-row text-2xl md:text-xl lg:text-lg space-y-4 md:space-y-0 md:space-x-8 lg:space-x-4">
               <li><Link to="home" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">Home</Link></li>
               <li><Link to="AboutUs" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">About Us</Link></li>
               <li><Link to="services" smooth={true} duration={500} className="hover:text-red-500 cursor-pointer">Services</Link></li>
