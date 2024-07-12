@@ -34,14 +34,14 @@ const services = [
     id: 5,
     title: 'ETHICATE OUTDOOR',
     description: 'Ethicate outdoor advertising focuses on sustainable and ethical materials...',
-    images: ['/ethicate2.jpg', '/ethicate2-alternate.png', '/ethicate2-additional1.png', '/ethicate2-additional2.png'],
+    images: ['/cocacola.jpg', '/ethicate2-alternate.png', '/ethicate2-additional1.png', '/ethicate2-additional2.png'],
     icon: <FaGlobe size={24} className="text-blue-500 mb-2" />, // Unique icon
   },
   {
     id: 6,
     title: 'ETHICATE DIGITAL',
     description: 'Ethicate digital advertising emphasizes transparency and integrity...',
-    images: ['/ethicate3.jpg', '/ethicate3-alternate.png', '/ethicate3-additional1.png', '/ethicate3-additional2.png'],
+    images: ['/cocacola.jpg', '/ethicate3-alternate.png', '/ethicate3-additional1.png', '/ethicate3-additional2.png'],
     icon: <FaRecycle size={24} className="text-yellow-500 mb-2" />, // Unique icon
   },
 ];
